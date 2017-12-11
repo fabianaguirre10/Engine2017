@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="0af81c6c-afde-4d59-a1b9-079470295c80" ChangeDateTime="08/30/2017 21:51:46">
+    <Property Name="ElementName" Value="[MardisCore].[Question].[Ely Negrett]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[MardisCore].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="sequence" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ef461279-f71b-4d0e-95e8-8a4419a47970" ChangeDateTime="09/20/2017 13:59:25">
+    <Property Name="ElementName" Value="[dbo].[Sms].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Sms]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="208bf6f6-3256-4b13-aff2-aed0b6f5c262" ChangeDateTime="10/10/2017 19:44:35">
+    <Property Name="ElementName" Value="[MardisCore].[Sms].[idCampaign]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[MardisCore].[Sms]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="scr" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="decc4930-9091-45cc-b54c-56caefdc0624" ChangeDateTime="10/10/2017 19:44:42">
+    <Property Name="ElementName" Value="[MardisCore].[Sms].[Mensaje]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[MardisCore].[Sms]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="status" />
+  </Operation>
+</Operations>
